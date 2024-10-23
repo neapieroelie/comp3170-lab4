@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+
+
+button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: red;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+/* src/index.css */
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+/* src/index.css */
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Style the input field */
+.task-input {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.task-input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+.task-input:focus {
+  border-color: #007bff;
+}
+
+.add-task-button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+  color: rgb(255, 255, 255);
+}
+
+.add-task-button:active {
+  background-color: #003f7f;
+}
+
+
+button:focus {
+  outline: none;
+}
